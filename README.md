@@ -7,9 +7,9 @@
 3. 打开“开始目录”，找到Anaconda/Anaconda prompt，以管理员权限运行。
 
 4. 添加清华镜像
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+`conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --set show_channel_urls yes
+conda config --set show_channel_urls yes`
 
 5. 创建一个python版本为3.5的名为mytensorflow 的环境。
 conda create -n mytensorflow python=3.5 anaconda
