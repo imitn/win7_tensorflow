@@ -15,15 +15,15 @@ conda config --set show_channel_urls yes
 
 5. 创建一个python版本为3.5的名为mytensorflow 的环境。
 
-conda create -n mytensorflow python=3.5 anaconda
+```conda create -n mytensorflow python=3.5 anaconda```
 
 6. 安装TensorFlow到mytensorflow环境。
 
-conda install -n mytensorflow -c conda-forge tensorflow=1.3.0
+```conda install -n mytensorflow -c conda-forge tensorflow=1.3.0```
 
 7. 激活虚拟环境
 
-activate mytensorflow 
+```activate mytensorflow ```
 
 8. 安装下列依赖包
 ```
@@ -38,9 +38,7 @@ conda install sympy=1.1.1
 ```
 
 9. 启动jupyter
-```
-jupyter notebook
-```
+```jupyter notebook```
 
 10. 新建文件夹tensorflow
 
