@@ -7,20 +7,25 @@
 3. 打开“开始目录”，找到Anaconda/Anaconda prompt，以管理员权限运行。
 
 4. 添加清华镜像
+
 `conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --set show_channel_urls yes`
 
 5. 创建一个python版本为3.5的名为mytensorflow 的环境。
+
 conda create -n mytensorflow python=3.5 anaconda
 
 6. 安装TensorFlow到mytensorflow环境。
+
 conda install -n mytensorflow -c conda-forge tensorflow=1.3.0
 
 7. 激活虚拟环境
+
 activate mytensorflow 
 
 8. 安装下列依赖包
+
 conda install jupyter=1.0.0
 conda install matplotlib=2.0.2
 conda install numpy=1.13.1
@@ -40,6 +45,7 @@ jupyter notebook
 12. 重命名为test
 
 13. 输入测试内容，shift+enter执行
+
 import tensorflow as tf
 hello= tf.constant('Hello,Tensorflow!')
 sess=tf.Session()
